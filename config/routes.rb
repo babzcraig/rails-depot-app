@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'store#index', as: 'store_index'
+
   get 'books/index'
 
   get 'books/show'
